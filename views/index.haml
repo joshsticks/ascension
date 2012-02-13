@@ -3,7 +3,7 @@
 	%head
 		%meta{:name => "viewport", 
 			:content => "width=device-width, initial-scale=1"}
-		%title Mobile Bootcamp App
+		%title Ascension Mobile
 		%link{:rel => "stylesheet", 
 			:href => "http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css"}
 		%script{:type => "text/javascript",
@@ -14,5 +14,7 @@
 		        :src  => "application.js"}
 	%body
 		%div{"data-role" => "page", :id => "home"}
-			%div{"data-role" => "header"}
-				%h1 Hello World
+			%div{"data-role" => "header", "data-theme" => "e"}
+				%h1 Ascension
+			%div{"data-role" => "content"}
+				%div{:class => "card"}
